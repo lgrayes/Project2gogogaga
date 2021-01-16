@@ -1,16 +1,9 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>gogogaga_index</title>
-<style>
-
 body {
     margin: 0;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     background-color: black;
 }
 
@@ -23,31 +16,12 @@ body {
 .text {
     background-color: black;
     color: white;
-    font-size: 80px;
+    font-size: 180px;
     font-weight: bold;
     font-family: sans-serif;
     text-transform: uppercase;
     position: relative;
     user-select: none;
-}
-
-.text_header {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    position: relative;
-    user-select: none;
-}
-
-.text_p {
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
-    position: relative;
-    user-select: none;
-    align-items: right;
 }
 
 .text::before {
@@ -94,24 +68,3 @@ body {
         transform: translate(50%, 50%);
     }
 }
-
-</style>
-</head>
-
-<body>
-    <div class="container">
-        <div class="neon">
-            <span class="text" data-text="gogogaga">gogogaga</span>
-            <span class="gradient"></span>
-            <span class="spotlight"></span>
-        </div>
-        <div>
-            <span class="text_header">PLAYLIST OF TOP SONGS from 2010-2019</span><br>
-            <span class="text_p">Compiled by the Ladies of gogoGAGA Records</span><br>
-        </div>>
-        <div>
-            <button type="button" class="btn btn-light btn-sm"><a target="_blank" href=page03.html>Let's Look at the Data</a></button>
-        </div>
-    </div>
-</body>
-</html>
